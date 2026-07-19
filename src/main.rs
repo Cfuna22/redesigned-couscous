@@ -16,3 +16,11 @@ fn main() {
     let score: [u32; 3] = [23, 40, 8];
     println!("the sore was {}", score[1]);
 }
+
+fn next() {
+    greet("abel");
+}
+
+fn greet(name: &str) {
+    println!("greetings, {}", name);
+}
