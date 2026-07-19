@@ -1,4 +1,4 @@
-fn next() {
+fn main() {
     greet("abel");
 }
 
