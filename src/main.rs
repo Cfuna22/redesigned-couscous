@@ -8,5 +8,5 @@ fn greet(name: &str) {
 }
 
 fn add(a: i32, b: i32) -> i32{
-    a + b // this is an expression, it's value automatically 
+    a + b // this is an expression, it's value automatically becomes the return value
 }
