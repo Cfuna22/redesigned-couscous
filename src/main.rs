@@ -15,5 +15,7 @@
 fn main() {
     let number = 6;
 
-    if number % 2 == 0 {"even"} else {"odd"};
+    let label = if number % 2 == 0 {"even"} else {"odd"};
+
+    println!("{}", label);
 }
