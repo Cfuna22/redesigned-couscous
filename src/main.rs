@@ -45,3 +45,7 @@
 //         println!("score is: {}", score);
 //     }
 // }
+
+fn main() {
+    println!("hello world")
+}
