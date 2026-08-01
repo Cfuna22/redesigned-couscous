@@ -35,4 +35,13 @@ fn main() {
         println!("{}", n);
         n-=1;
     }
+
+    for i in 1..4 {
+        println!("{}", i);
+    }
+
+    let scores = [59, 89, 9, 90, 04, 04, 85, 36, 94, 36, 06, 934, 984, 84];
+    for score in scores {
+        println!("score is: {}", score);
+    }
 }
