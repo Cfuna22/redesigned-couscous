@@ -31,5 +31,7 @@ fn main() {
     println!("Loop result: {}", result)
 
     let mut n = 3;
-    
+    while n!= 0 {
+        println!("{}", n);
+    }
 }
