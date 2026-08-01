@@ -47,5 +47,5 @@
 // }
 
 fn main() {
-    println!("hello world")
+    let s1 = String::from("Hello"); // create a heap allocated growablestring different from the &str
 }
