@@ -48,4 +48,6 @@
 
 fn main() {
     let s1 = String::from("Hello"); // create a heap allocated growablestring different from the &str
+    let s2 = s1.clone();
+    println!("{}, {}", s2, s1);
 }
