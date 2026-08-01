@@ -50,4 +50,12 @@ fn main() {
     let s1 = String::from("Hello"); // create a heap allocated growablestring different from the &str
     let s2 = s1.clone();
     println!("{}, {}", s2, s1);
+
+    let ss = String::from("Hello");
+    let len = calculate_length(&ss);
+    println!("the length of {} is {}", ss, len)
+}
+
+fn calculate_length(s: &String) -> usize {
+    s.len()
 }
