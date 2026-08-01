@@ -24,9 +24,12 @@ fn main() {
         counter += 1;
 
         if counter == 5 {
-            break counter * 3;
+            break counter * 2;
         }
     };
 
     println!("Loop result: {}", result)
+
+    let mut n = 3;
+    
 }
