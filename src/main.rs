@@ -12,36 +12,36 @@
 // }
 
 
-fn main() {
-    let number = 6;
+// fn main() {
+//     let number = 6;
 
-    let label = if number % 2 == 0 {"even"} else {"odd"};
+//     let label = if number % 2 == 0 {"even"} else {"odd"};
 
-    println!("{}", label);
+//     println!("{}", label);
 
-    let mut counter = 0;
-    let result = loop {
-        counter += 1;
+//     let mut counter = 0;
+//     let result = loop {
+//         counter += 1;
 
-        if counter == 5 {
-            break counter * 2;
-        }
-    };
+//         if counter == 5 {
+//             break counter * 2;
+//         }
+//     };
 
-    println!("Loop result: {}", result);
+//     println!("Loop result: {}", result);
 
-    let mut n = 3;
-    while n!= 0 {
-        println!("{}", n);
-        n-=1;
-    }
+//     let mut n = 3;
+//     while n!= 0 {
+//         println!("{}", n);
+//         n-=1;
+//     }
 
-    for i in 1..4 {
-        println!("{}", i);
-    }
+//     for i in 1..4 {
+//         println!("{}", i);
+//     }
 
-    let scores = [59, 89, 9, 90, 04, 04, 85, 36, 94, 36, 06, 934, 984, 84];
-    for score in scores {
-        println!("score is: {}", score);
-    }
-}
+//     let scores = [59, 89, 9, 90, 04, 04, 85, 36, 94, 36, 06, 934, 984, 84];
+//     for score in scores {
+//         println!("score is: {}", score);
+//     }
+// }
